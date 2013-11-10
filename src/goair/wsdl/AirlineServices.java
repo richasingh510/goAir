@@ -1,5 +1,7 @@
 package goair.wsdl;
 
+import goair.Exception.AirlineException;
+
 public class AirlineServices {
 	
 	
@@ -9,7 +11,7 @@ public class AirlineServices {
 	 * @return int - 1 for success, 0 for failure
 	 *  
 	 */
-	public int createReservation()
+	public int createReservation() throws AirlineException
 	{
 		return 1;
 	}
@@ -20,7 +22,7 @@ public class AirlineServices {
 	 * @return int - Returns 1 for success, 0 for failure
 	 *  
 	 */
-	public int cancelReservation()
+	public int cancelReservation() throws AirlineException
 	{
 		return 1;
 	}
