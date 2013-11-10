@@ -1,5 +1,6 @@
 package goair.flight;
 
+import goair.customer.Customer;
 import goair.employee.Employee;
 
 import java.util.List;
@@ -21,6 +22,7 @@ public class Flight {
 	Long departureTime;
 	String status;
 	int numberOfSeatsReserved;
+	List<Customer> customers;
 	
 	public String getFlightNumber() {
 		return flightNumber;
