@@ -6,7 +6,7 @@ public class Journey {
 	
 	String flightNumber;
 	String destination;
-	String boardingPoint;
+	String boardingPoint; // this is going to be source for now
 	
 	public String getFlightNumber() {
 		return flightNumber;
