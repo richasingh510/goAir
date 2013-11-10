@@ -1,4 +1,4 @@
-package goair.admin;
+package goair.model.admin;
 
 public class Admin {
 

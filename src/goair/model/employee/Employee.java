@@ -1,6 +1,6 @@
-package goair.employee;
+package goair.model.employee;
 
-import goair.general.Person;
+import goair.model.general.Person;
 
 public class Employee extends Person {
 	public Employee() {}

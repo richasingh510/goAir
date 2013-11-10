@@ -1,7 +1,7 @@
-package goair.flight;
+package goair.model.flight;
 
-import goair.customer.Customer;
-import goair.employee.Employee;
+import goair.model.customer.Customer;
+import goair.model.employee.Employee;
 
 import java.util.List;
 

@@ -1,5 +1,5 @@
-package goair.customer;
-import goair.general.Person;
+package goair.model.customer;
+import goair.model.general.Person;
 
 public class Customer extends Person{
 

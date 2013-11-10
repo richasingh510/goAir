@@ -1,7 +1,7 @@
-package goair.booking;
+package goair.model.booking;
 
-import goair.customer.Customer;
-import goair.flight.Flight;
+import goair.model.customer.Customer;
+import goair.model.flight.Flight;
 
 public class BookingBean {
 	public Customer customerBean;
