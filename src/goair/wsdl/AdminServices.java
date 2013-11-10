@@ -1,6 +1,7 @@
 package goair.wsdl;
 
 import goair.flight.Flight;
+import goair.util.SearchParametersForFlights;
 
 import java.util.List;
 
@@ -33,9 +34,28 @@ public class AdminServices {
 	 * @return List<Flight> - Return array of strings. Each string contains pipe separated flight details.
 	 *  
 	 */
-	public List<Flight> searchFlights()
+	public List<Flight> searchFlights(SearchParametersForFlights searchParameters)
 	{
 		return null;
 	}
 	
+	/**
+	 * Get all the flights in the system
+	 * @return List<Flight> - Return list of all the flights
+	 */
+	public List<Flight> getFlights()
+	{
+		return null;
+	}
+	
+	/**
+	 * Add a new flight to the system
+	 * @param flight
+	 * @return int status of the operation this maps to the list of error codes defined 
+	 * for the system.
+	 */
+	public int addFlight(Flight flight)
+	{
+		return -1;
+	}
 }
