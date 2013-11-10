@@ -1,4 +1,4 @@
-package java.lab.cmpe273.flight.admin.model;
+package goair.general;
 
 public class Person {
 	
