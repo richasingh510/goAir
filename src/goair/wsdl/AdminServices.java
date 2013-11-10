@@ -1,5 +1,6 @@
 package goair.wsdl;
 
+import goair.model.booking.Booking;
 import goair.model.customer.Customer;
 import goair.model.employee.Employee;
 import goair.model.flight.Flight;
@@ -25,7 +26,7 @@ public class AdminServices {
 	// 9. Add a employee 
 	
 	// 10. View all the bookings.
-	// 11. Search bookings(optional)
+	// 11. Search bookings.
 	
 	// View flight page which will have flight details with availability.
 	// View customer page which will have customer details with booking history and all.
@@ -121,5 +122,24 @@ public class AdminServices {
 	public int addEmployee(Employee employee)
 	{
 		return -1;
+	}
+	
+	/**
+	 * Search Booking - This method searches all the Booking with a given criteria
+	 * @return List<Booking> - Return list of Booking.
+	 *  
+	 */
+	public List<Booking> searchBookings(SearchParametersForEmployees searchParameters)
+	{
+		return null;
+	}
+	
+	/**
+	 * Get all the Booking in the system
+	 * @return List<Booking> - Return list of all the Bookings
+	 */
+	public List<Booking> getBookings()
+	{
+		return null;
 	}
 }
