@@ -36,7 +36,7 @@ public class AdminServices {
 
 	/**
 	 * Search flights - This method searches all the flights with a given criteria
-	 * @return List<Flight> - Return array of strings. Each string contains pipe separated flight details.
+	 * @return List<Flight> -  Return list of flights
 	 *  
 	 */
 	public List<Flight> searchFlights(SearchParametersForFlights searchParameters)
