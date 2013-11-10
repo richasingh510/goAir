@@ -1,4 +1,4 @@
-package goair.general;
+package goair.model.general;
 
 public class Person {
 	

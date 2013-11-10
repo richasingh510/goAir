@@ -1,6 +1,6 @@
-package goair.payment;
+package goair.model.payment;
 
-import goair.general.Person;
+import goair.model.general.Person;
 
 public class PaymentBean extends Person{
 	public long  creditcardNumber;

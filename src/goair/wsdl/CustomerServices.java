@@ -2,10 +2,10 @@ package goair.wsdl;
 
 import java.util.List;
 
-import goair.booking.BookingBean;
-import goair.customer.Customer;
-import goair.flight.Flight;
-import goair.payment.PaymentBean;
+import goair.model.booking.BookingBean;
+import goair.model.customer.Customer;
+import goair.model.flight.Flight;
+import goair.model.payment.PaymentBean;
 
 public class CustomerServices extends AirlineServices{
 	
