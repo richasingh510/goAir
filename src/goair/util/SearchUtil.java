@@ -1,16 +1,19 @@
 package goair.util;
 
+import goair.flight.Flight;
+
+import java.util.List;
+
 public class SearchUtil {
 	
 	/**
 	 * This method will get the flight 
 	 * @return
 	 */
-	public String[] serachFlightsForAdmin()
+	public List<Flight> serachFlightsForAdmin()
 	{
 		return null;
 	}
-	
 	
 
 }
