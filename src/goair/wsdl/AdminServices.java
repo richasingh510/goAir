@@ -1,6 +1,6 @@
 package goair.wsdl;
 
-import goair.flight.Flight;
+import goair.model.flight.Flight;
 import goair.util.SearchParametersForFlights;
 
 import java.util.List;

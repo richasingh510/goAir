@@ -1,4 +1,4 @@
-package goair.journey;
+package goair.model.journey;
 
 public class Journey {
 	
