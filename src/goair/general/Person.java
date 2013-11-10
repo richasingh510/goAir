@@ -4,13 +4,13 @@ public class Person {
 	
 	public Person() {}
 	
-	String firstName;
-	String lastName;
-	String address;
-	String city;
-	String state;
-	String zipcode;
-	String dob;
+	public String firstName;
+	public String lastName;
+	public String address;
+	public String city;
+	public String state;
+	public String zipcode;
+	public String dob;
 	
 	public String getFirstName() {
 		return firstName;

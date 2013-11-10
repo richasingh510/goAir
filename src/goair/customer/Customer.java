@@ -27,6 +27,15 @@ public class Customer extends Person{
 	public void setNationality(String nationality) {
 		this.nationality = nationality;
 	}
+	
+	@Override
+	public String toString() {
+		return "Customer [customerId=" + customerId + ", passportNo="
+				+ passportNo + ", nationality=" + nationality + ", firstName="
+				+ firstName + ", lastName=" + lastName + ", address=" + address
+				+ ", city=" + city + ", state=" + state + ", zipcode="
+				+ zipcode + ", dob=" + dob + "]";
+	}
 
 }
 

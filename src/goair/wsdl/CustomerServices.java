@@ -2,9 +2,12 @@ package goair.wsdl;
 
 import java.util.List;
 
+import goair.booking.BookingBean;
+import goair.customer.Customer;
 import goair.flight.Flight;
+import goair.payment.PaymentBean;
 
-public class CustomerServices {
+public class CustomerServices extends AirlineServices{
 	
 	public CustomerServices() {}
 	
@@ -17,6 +20,32 @@ public class CustomerServices {
 	{
 		return null;
 	}
+	
+	public int customerLogin(String userName,String Password){
+		return 0;
+	}
+	
+	public int customerSignUp(Customer customerBean){
+		return 0;
+	}
+	
+	public int editProfile(Customer customerBean){
+		return 0;
+	}
+	
+	public List<BookingBean> viewBookingDetails(long reservationId){
+		return null;
+	}
+	
+	public int makePayment(PaymentBean paymentBean){
+		return 0;
+	}
+	
+	
+	
+	
+	
+	
 	
 	
 }

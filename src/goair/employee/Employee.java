@@ -34,6 +34,15 @@ public class Employee extends Person {
 	public void setEmpHiredate(String empHiredate) {
 		this.empHiredate = empHiredate;
 	}
+	@Override
+	public String toString() {
+		return "Employee [empId=" + empId + ", empDes=" + empDes
+				+ ", empPosition=" + empPosition + ", empHiredate="
+				+ empHiredate + ", firstName=" + firstName + ", lastName="
+				+ lastName + ", address=" + address + ", city=" + city
+				+ ", state=" + state + ", zipcode=" + zipcode + ", dob=" + dob
+				+ "]";
+	}
 
 }
 
