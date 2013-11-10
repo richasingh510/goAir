@@ -5,13 +5,24 @@ import goair.employee.Employee;
 
 import java.util.List;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlList;
+import javax.xml.bind.annotation.XmlType;
+
+@XmlType(name="Flight")
 public class Flight {
 	
+	@XmlElement(name="flightNumber")
 	String flightNumber;
+	@XmlElement(name="airlineName")
 	String airlineName;
+	@XmlElement(name="source")
 	String source;
+	@XmlElement(name="destination")
 	String destination;
+	@XmlElement(name="numberOfSeats")
 	int numberOfSeats;
+	@XmlList
 	List<Employee> crewDetails;
 
 	// Extra attributes that will be used

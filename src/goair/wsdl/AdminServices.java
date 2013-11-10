@@ -1,5 +1,9 @@
 package goair.wsdl;
 
+import goair.flight.Flight;
+
+import java.util.List;
+
 public class AdminServices {
 	
 	//When you login as admin you see following hyper links
@@ -26,10 +30,10 @@ public class AdminServices {
 
 	/**
 	 * Search flights - This method searches all the flights with a given criteria
-	 * @return String[] - Return array of strings. Each string contains pipe separated flight details.
+	 * @return List<Flight> - Return array of strings. Each string contains pipe separated flight details.
 	 *  
 	 */
-	public String[] searchFlights()
+	public List<Flight> searchFlights()
 	{
 		return null;
 	}
