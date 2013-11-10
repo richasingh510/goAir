@@ -1,5 +1,8 @@
 package goair.model.employee;
 
+import java.util.List;
+
+import goair.model.flight.Flight;
 import goair.model.general.Person;
 
 public class Employee extends Person {
@@ -9,6 +12,7 @@ public class Employee extends Person {
 	String empDes;
 	String empPosition;
 	String empHiredate;
+	List<Flight> empFlights;
 	
 	public String getEmpId() {
 		return empId;
@@ -33,6 +37,12 @@ public class Employee extends Person {
 	}
 	public void setEmpHiredate(String empHiredate) {
 		this.empHiredate = empHiredate;
+	}
+	public List<Flight> getEmpFlights() {
+		return empFlights;
+	}
+	public void setEmpFlights(List<Flight> empFlights) {
+		this.empFlights = empFlights;
 	}
 	@Override
 	public String toString() {
