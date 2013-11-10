@@ -11,12 +11,15 @@ public class AdminServices {
 	// 5. View all customers - when you view a customer you get option to edit / delete it.
 	// 6. Add a customer 
 	
-	// 4. Search employee - when you get a searched employee you get option to edit / delete it.
-	// 5. View all employee - when you view a employee you get option to edit / delete it.
-	// 6. Add a employee 
+	// 7. Search employee - when you get a searched employee you get option to edit / delete it.
+	// 8. View all employee - when you view a employee you get option to edit / delete it.
+	// 9. Add a employee 
 	
-	// View flight page will have flight details with availability.
-	// View customer page will have customer details with booking history and all.
-	// View employee page will have employee details with profile and all.
+	// 10. View all the bookings.
+	// 11. Search bookings(optional)
+	
+	// View flight page which will have flight details with availability.
+	// View customer page which will have customer details with booking history and all.
+	// View employee page which will have employee details with profile and what all the 
 	
 }
