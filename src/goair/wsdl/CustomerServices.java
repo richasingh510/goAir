@@ -2,7 +2,7 @@ package goair.wsdl;
 
 import java.util.List;
 
-import goair.model.booking.BookingBean;
+import goair.model.booking.Booking;
 import goair.model.customer.Customer;
 import goair.model.flight.Flight;
 import goair.model.payment.PaymentBean;
@@ -33,7 +33,7 @@ public class CustomerServices extends AirlineServices{
 		return 0;
 	}
 	
-	public List<BookingBean> viewBookingDetails(long reservationId){
+	public List<Booking> viewBookingDetails(long reservationId){
 		return null;
 	}
 	

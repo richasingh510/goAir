@@ -1,6 +1,10 @@
 package goair.wsdl;
 
+import goair.model.customer.Customer;
+import goair.model.employee.Employee;
 import goair.model.flight.Flight;
+import goair.util.SearchParametersForCustomers;
+import goair.util.SearchParametersForEmployees;
 import goair.util.SearchParametersForFlights;
 
 import java.util.List;
@@ -55,6 +59,66 @@ public class AdminServices {
 	 * for the system.
 	 */
 	public int addFlight(Flight flight)
+	{
+		return -1;
+	}
+	
+	/**
+	 * Search Customers - This method searches all the Customer with a given criteria
+	 * @return List<Customer> - Return list of Customers.
+	 *  
+	 */
+	public List<Customer> searchCustomers(SearchParametersForCustomers searchParameters)
+	{
+		return null;
+	}
+	
+	/**
+	 * Get all the Customers in the system
+	 * @return List<Customer> - Return list of all the Customers
+	 */
+	public List<Customer> getCustomers()
+	{
+		return null;
+	}
+	
+	/**
+	 * Add a new Customer to the system
+	 * @param Customer
+	 * @return int status of the operation this maps to the list of error codes defined 
+	 * for the system.
+	 */
+	public int addCustomer(Customer customer)
+	{
+		return -1;
+	}
+	
+	/**
+	 * Search Employee - This method searches all the Employee with a given criteria
+	 * @return List<Employee> - Return list of Employee.
+	 *  
+	 */
+	public List<Employee> searchEmployees(SearchParametersForEmployees searchParameters)
+	{
+		return null;
+	}
+	
+	/**
+	 * Get all the Employees in the system
+	 * @return List<Customer> - Return list of all the Employees
+	 */
+	public List<Employee> getEmployees()
+	{
+		return null;
+	}
+	
+	/**
+	 * Add a new Employee to the system
+	 * @param Employee
+	 * @return int status of the operation this maps to the list of error codes defined 
+	 * for the system.
+	 */
+	public int addEmployee(Employee employee)
 	{
 		return -1;
 	}
