@@ -1,4 +1,4 @@
-package goair.wsdl;
+package goair.admin;
 
 public class Admin {
 
