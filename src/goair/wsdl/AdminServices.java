@@ -65,6 +65,29 @@ public class AdminServices {
 	}
 	
 	/**
+	 * Edit flight to the system
+	 * @param flight
+	 * @return int status of the operation this maps to the list of error codes defined 
+	 * for the system.
+	 */
+	public int editFlight(Flight flight)
+	{
+		return -1;
+	}
+	
+
+	/**
+	 * Delete flight to the system
+	 * @param flight
+	 * @return int status of the operation this maps to the list of error codes defined 
+	 * for the system.
+	 */
+	public int deleteFlight(Flight flight)
+	{
+		return -1;
+	}
+	
+	/**
 	 * Search Customers - This method searches all the Customer with a given criteria
 	 * @return List<Customer> - Return list of Customers.
 	 *  
@@ -90,6 +113,28 @@ public class AdminServices {
 	 * for the system.
 	 */
 	public int addCustomer(Customer customer)
+	{
+		return -1;
+	}
+	
+	/**
+	 * Edit Customer to the system
+	 * @param Customer
+	 * @return int status of the operation this maps to the list of error codes defined 
+	 * for the system.
+	 */
+	public int editCustomer(Customer customer)
+	{
+		return -1;
+	}
+	
+	/**
+	 * Delete Customer to the system
+	 * @param Customer
+	 * @return int status of the operation this maps to the list of error codes defined 
+	 * for the system.
+	 */
+	public int deleteCustomer(Customer customer)
 	{
 		return -1;
 	}
@@ -125,6 +170,28 @@ public class AdminServices {
 	}
 	
 	/**
+	 * Edit Employee to the system
+	 * @param Employee
+	 * @return int status of the operation this maps to the list of error codes defined 
+	 * for the system.
+	 */
+	public int editEmployee(Employee employee)
+	{
+		return -1;
+	}
+	
+	/**
+	 * Delete Employee to the system
+	 * @param Employee
+	 * @return int status of the operation this maps to the list of error codes defined 
+	 * for the system.
+	 */
+	public int deleteEmployee(Employee employee)
+	{
+		return -1;
+	}
+	
+	/**
 	 * Search Booking - This method searches all the Booking with a given criteria
 	 * @return List<Booking> - Return list of Booking.
 	 *  
@@ -141,5 +208,27 @@ public class AdminServices {
 	public List<Booking> getBookings()
 	{
 		return null;
+	}
+	
+	/**
+	 * Edit Booking to the system
+	 * @param Booking
+	 * @return int status of the operation this maps to the list of error codes defined 
+	 * for the system.
+	 */
+	public int editBooking(Booking booking)
+	{
+		return -1;
+	}
+	
+	/**
+	 * Delete Booking to the system
+	 * @param Booking
+	 * @return int status of the operation this maps to the list of error codes defined 
+	 * for the system.
+	 */
+	public int deleteBooking(Booking booking)
+	{
+		return -1;
 	}
 }
