@@ -3,7 +3,7 @@ package goair.model.booking;
 import goair.model.customer.Customer;
 import goair.model.flight.Flight;
 
-public class BookingBean {
+public class Booking {
 	public Customer customerBean;
 	public Flight flightBean;
 	public int reservationId;
