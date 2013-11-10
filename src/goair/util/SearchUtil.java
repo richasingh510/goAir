@@ -1,6 +1,6 @@
 package goair.util;
 
-import goair.flight.Flight;
+import goair.model.flight.Flight;
 
 import java.util.List;
 
