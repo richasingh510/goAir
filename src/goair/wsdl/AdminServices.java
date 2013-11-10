@@ -20,6 +20,18 @@ public class AdminServices {
 	
 	// View flight page which will have flight details with availability.
 	// View customer page which will have customer details with booking history and all.
-	// View employee page which will have employee details with profile and what all the 
+	// View employee page which will have employee details with profile and what all the flights
+			// he/she is serving with histories.
+	
+
+	/**
+	 * Search flights - This method searches all the flights with a given criteria
+	 * @return String[] - Return array of strings. Each string contains pipe separated flight details.
+	 *  
+	 */
+	public String[] searchFlights()
+	{
+		return null;
+	}
 	
 }
