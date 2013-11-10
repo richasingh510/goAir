@@ -1,5 +1,5 @@
 package goair.employee;
 
-public class Employee {
+public class Employee extends Person {
 
 }
